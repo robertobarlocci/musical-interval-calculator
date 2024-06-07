@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chord Intervals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Chord Intervals</h1>
+
+  <div class="dropdown-set">
+    <label for="baseNote">Base Note:</label>
+    <select id="baseNote"></select>
+    <label for="chordType">Chord Type:</label>
+    <select id="chordType">
+      <option value="major">Major</option>
+      <option value="minor">Minor</option>
+      <option value="augmented">Augmented</option>
+      <option value="diminished">Diminished</option>
+    </select>
+  </div>
+
+  <div class="dropdown-set">
+    <label for="compareNote">Compare Note:</label>
+    <select id="compareNote"></select>
+    <label for="compareChordType">Compare Chord Type:</label>
+    <select id="compareChordType">
+      <option value="major">Major</option>
+      <option value="minor">Minor</option>
+      <option value="augmented">Augmented</option>
+      <option value="diminished">Diminished</option>
+    </select>
+  </div>
+
+  <button id="showIntervals">Show Intervals</button>
+  <div id="intervals"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
